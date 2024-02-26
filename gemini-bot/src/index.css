@@ -1,0 +1,120 @@
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f7f7; /* Light gray background */
+  color: #333; /* Dark text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: #080808;
+  color: #fff; 
+  font-size: 24px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.app {
+  width: 100vw;
+  margin: 5vh auto; 
+  height: 90vh;
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+
+.magic {
+  margin-left: 10px;
+  padding: 12px 20px; 
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+
+.magic:hover {
+  background-color: #0056b3; 
+}
+
+
+.input-container {
+  display: flex;
+  width: 100%;
+  border: solid 0.5px #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px; 
+  margin-top: 20px; 
+  overflow: hidden;
+}
+
+.input-container input {
+  padding: 12px; 
+  border-radius: 6px; 
+  font-size: 16px;
+  outline: none;
+  width: 90%;
+  font-weight: 400;
+}
+
+
+.search-result {
+  margin-top: 20px; 
+  overflow-y: auto; 
+  max-height: 60vh; 
+  padding-right: 20px;
+}
+
+.input-container input::placeholder {
+  color: #ccc; 
+  font-weight: 400;
+}
+
+.input-container button{
+  min-width: 10%;
+  border: none;
+  border-left:1px solid #ccc;
+  background-color: #f7f7f7; 
+  color: #555; 
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-container button:active{
+  background-color: #e0e0e0; 
+}
+
+.answer{
+  padding: 13px 14px;
+  border: solid 0.5px #ccc;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius:6px;
+}
