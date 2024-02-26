@@ -2,6 +2,7 @@
   "name": "gemini-bot",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://main--gemini-inator.netlify.app/",
   "dependencies": {
     "@google/generative-ai": "^0.2.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -29,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",
